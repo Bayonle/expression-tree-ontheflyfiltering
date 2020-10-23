@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/zedcrest/Documents/Personal/mambuquery.api/mambuquery.api.csproj": {}
+  },
+  "projects": {
+    "/Users/zedcrest/Documents/Personal/mambuquery.api/mambuquery.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zedcrest/Documents/Personal/mambuquery.api/mambuquery.api.csproj",
+        "projectName": "mambuquery.api",
+        "projectPath": "/Users/zedcrest/Documents/Personal/mambuquery.api/mambuquery.api.csproj",
+        "packagesPath": "/Users/zedcrest/.nuget/packages/",
+        "outputPath": "/Users/zedcrest/Documents/Personal/mambuquery.api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zedcrest/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[31.0.3, )"
+            },
+            "ExpressionBuilderNetCore": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "restsharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
